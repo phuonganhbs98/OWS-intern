@@ -1,0 +1,714 @@
+@font-face {
+    font-family: Objective-Bold;
+    src: url("./Obective/Objective_OTF/Objective-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Objective-Regular;
+    src: url("./Obective/Objective_OTF/Objective-Regular.otf") format("opentype");
+}
+
+body{
+    position: static;
+}
+#wrapper{
+    width: 1440px;
+    height: 3599px;
+    margin: 0 auto;
+    text-align: left;
+}
+/* PART1 */
+.part1{ /*background part 1*/
+    position: static;
+    width: 100%;
+    height: 705px;
+    background:  url("./image/image-part1.png") no-repeat center;
+    margin: 0;
+    padding: 0;
+    border: hidden;
+}
+
+.part1 #header{
+    padding: 30px 135px 0px;
+}
+
+.part1 #logo{
+    text-align: center;
+    color: #ffffff;
+}
+
+.part1 .content #time{
+    margin-top: 0px;
+}
+
+.nav-bar .d-flex{
+    height: 48px;
+    width: 700px;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.nav-bar > .p-2 .img{
+    float: left;
+}
+.nav-bar >.d-flex .p-2 a{
+    width: 150px;
+    height: 48px;
+    font-size: 18px;
+    font-family: Objective-Regular;
+    color: #858585;
+}
+.nav-bar > .d-flex .p-2 a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#time .border-0{
+    position: static;
+    width: 468px;
+    height: 64px;
+    text-align: center;
+    background-color: white;
+    line-height: 15px;
+    font-family: Objective-Bold;
+    border: hidden;
+    border-radius: 4px;
+    margin-top: 25px;
+    box-shadow: 0px 16px 32px rgba(55, 71, 79, 0.08), 0px 8px 24px rgba(55, 71, 79, 0.1);
+}
+#time .border-0 button{
+    float: right;
+    width: 168px;
+    height: 64px;
+    background-color: #7C4DFF;
+    border-radius: 8px;
+    font-family: Objective-Bold;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: -0.25px;
+    line-height: 32px;
+}
+#time > .border-0 .d-flex{
+    width: 300px;
+    height: 64px;
+}
+.rounded-circle{
+    background-color: white;
+    width: 
+}
+.id1{
+    font-family: Objective-Bold;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    height: 24px;
+    letter-spacing: -0.25px;
+    line-height: 32px;
+}
+.id2{
+    font-size: 14px;
+    margin-top: 4px;
+    font-family: Objective-Regular;
+    height: 24px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+}
+
+.login .d-flex{
+    background-color: white;
+    width:  130px;
+    height: 48px;
+    padding: 10px 8px;
+    border-radius: 999px;
+    text-align: center;
+    color: #7C4DFF;
+    font-size: 18px;
+    font-family: Objective-Bold;
+}
+
+.content .container-fluid{
+    margin: 0;
+}
+
+.content .container-fluid .row .col{
+    margin: 0px 135px 80px 120px;
+    padding: 0;
+}
+
+.timesaving{
+    color: white;
+    font-size: 64px;
+    font-family: Objective-Bold;
+    font-style: Semi-Bold;
+    line-height: 75px;
+    letter-spacing: -2.25px;
+}
+.get-early{
+    color: #333333;
+    font-size: 48px;
+    font-family: Objective-Bold;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+    margin-top: 80px;
+}
+
+.content input{
+    border: hidden;
+    font-size: 15px;
+    font-family: Objective-Regular;
+    letter-spacing: -0.25px;
+    color: #7C4DFF;
+}
+
+.content .d-flex{
+    align-items: center;
+}
+.content .record{
+    margin-top: 24px;
+}
+.record-text{
+    color:#858585;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    font-family: Objective-Bold;
+    line-height: 24px;
+}
+.record img{
+    float: left;
+}
+
+/* PART2 */
+.part2{
+    background: center #ffffff;
+    height: 661px;
+    width: 1440px;
+    position: static;
+}
+
+.part2 .container-fluid{
+    padding: 75px 135px;
+}
+
+.part2 .border-0{
+    border: hidden;
+    text-align: left;
+    border-radius: 8px;
+    padding: 8px 16px 16px;
+    box-shadow: 0px 64px 64px rgba(28, 65, 84, 0.04), 0px 64px 48px rgba(28, 65, 84, 0.08), 0px 24px 24px rgba(28, 65, 84, 0.08), 0px 12px 12px rgba(28, 65, 84, 0.1);
+    width: 350px;
+    height: 501px;
+}
+/* .part2 .border-0 p{
+    margin: 0;
+    padding: 0;
+} */
+.part2 .start{
+    height: 32px;
+    color: #333333;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    font-family: Objective-Bold;
+}
+.part2 .we{
+    margin-top: 8px;
+    margin-bottom: 14px;
+    height: 56px;
+    color: #333333;
+    font-family: Objective-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+}
+.part2 .border{
+    margin-top: 16px;
+    width: 318px;
+    height: 48px;
+    padding: 5px;
+    border: 1px solid #ADADAD;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: Objective-Regular;
+    color: #858585;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+}
+.part2 .border img{
+    float: right;
+}
+.part2 .form-control{
+    width: 250px;
+    border: hidden;
+    float: left;
+}
+.checkbox-accept{
+    border: hidden;
+    margin-top: 55px;
+    margin-right: 20px;
+    color: #858585;
+    font-family: Objective-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+}
+.checkbox-accept img{
+    float: left;
+}
+.part2 #button{
+    background-color: #7C4DFF;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Objective-Regular;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    width: 100%;
+    margin: 16px 0px 8px;
+    padding: 10px 25px;
+    width: 318px;
+    height: 56px;
+    box-shadow: none;
+}
+#button p{
+    font-weight: 700;
+    height: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#button img{
+    float: right;
+    text-align: center;
+}
+/* INFOR-GET STARTED */
+.part2 .col-8 h1{
+    font-family: Objective-Bold;
+    height: 66px;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -2.25px;
+    color: #333333;
+}
+.part2 .col-8 p{
+    font-family: Objective-Regular;
+    height: 48px;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -1.25px;
+    color: #858585;
+    margin: 15px 0px;
+}
+.part2 .col-8 .d-flex{
+    height: 350px;
+    width: 100%;
+}
+.part2 .col-8 .p-2{
+    width: 370px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+#design-for{
+    color: #333333;
+    font-family: Objective-Bold;
+    height: 36px;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+}
+#comment{   
+    color: #5c5c5c;
+    height: 96px;
+    font-size: 18px;
+    font-family: Objective-Regular;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+}
+
+/* PART3 */
+.part3{
+    position: relative;
+    height: 1029px;
+    background: url("./image/theme3.png") no-repeat center;
+}
+
+.part3 .container-fluid{
+    padding: 120px 135px 0px;
+}
+.part3 .col-8{
+    font-family: Objective-Bold;
+}
+.part3 .col-8 h1{
+    height: 66px;
+    color: #333333;
+    font-size: 64px;
+    font-family: Objective-Bold;
+    line-height: 75px;
+    letter-spacing: -2.25px;
+}
+.part3 .col-8 p{
+    height: 96px;
+    color: #858585;
+    font-family: Objective-Regular;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -1.25px;
+    margin-top: 8px;
+}
+.part3 .col-4 .border-0{
+    width: 170px;
+    height: 48px;
+    border: hidden;
+    border-radius: 4px;
+    background-color: #333333;
+    color: white;
+    text-align: left;
+}
+.part3 .col-4 .border-0 .d-flex{
+    height: 48px;
+}
+.small-text{
+    margin: 0;
+    width: 93px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-family: Objective-Regular;
+}
+.bold-text{
+    margin-bottom: 6px;
+    width: 93px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    font-weight: bold;
+    font-family: Objective-Bold;
+}
+#background-part3{
+    position: relative;
+    text-align: center;
+    margin: 40px 235px;
+    box-shadow: 0px 64px 64px rgba(28, 65, 84, 0.04), 0px 64px 48px rgba(28, 65, 84, 0.08), 0px 24px 24px rgba(28, 65, 84, 0.08), 0px 12px 12px rgba(28, 65, 84, 0.1);
+}
+#eclipse-blue{
+    position: absolute;
+    left: 50px;
+    top: 418.36px;
+    opacity: 0.16;
+}
+#eclipse-violet{
+    position: absolute;
+    left: 80px;
+    top: 374px;
+    opacity: 0.16;
+}
+.part3 > .border-0{
+    position: absolute;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 16px 32px rgba(55, 71, 79, 0.08), 0px 8px 24px rgba(55, 71, 79, 0.1);
+}
+
+.part3 > .border-0 .p-2{
+    text-align: left;
+}
+.part3 > .border-0 .text1{
+    height: 24px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: Objective-Bold;
+    color: #333333;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+}
+.part3 > .border-0 .text2{
+    height: 24px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    font-family: Objective-Regular;
+}
+.part3 #sales{
+    width: 400px;
+    height: 88px;
+    top: 397px;
+    left:135px;
+}
+.part3 > #sales .rounded-circle{
+    background-image: url("./image/circle.png");
+}
+.part3 #delivery{
+    width: 370px;
+    height: 88px;
+    top: 840px;
+    left:435px;
+}
+.part3 > #delivery .rounded-circle{
+    background-image: url("./image/circle2.png");
+}
+.part3 #audience{
+    width: 370px;
+    height: 100px;
+    top: 712px;
+    left:935px;
+}
+.part3 > #audience .rounded-circle{
+    background-image: url("./image/circle.png");
+}
+
+/* PART4 */
+.part4{
+    position: static;
+    width: 100%;
+    height: 752px;
+    background: url("./image/theme4.png") no-repeat center;
+}
+.part4 .border-0{
+    padding: 80px 135px;
+    text-align: left;
+}
+.choose{
+    height: 56px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-family: Objective-Bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+}
+.keep{
+    margin: 0;
+    height: 48px;
+    color: #858585;
+    font-size: 32px;
+    font-family: Objective-Regular;
+    line-height: 48px;
+    letter-spacing: -1.25px;
+}
+.part4 .d-flex{
+    margin-top: 40px;
+}
+.part4 .d-flex .p-2{
+    border: 1px solid #c2c2c2;
+    border-radius: 16px;
+    padding: 24px;
+    width: 270px;
+    height: 440px;
+    text-align: center;
+}
+.part4 .p-2 .infor{
+    border: hidden;
+    margin: 24px 15px;
+}
+.part4 .p-2 .plan{
+    margin-bottom: 8px;
+    height: 72px;
+    font-family: Objective-Bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -1.25px;
+}
+.part4 .p-2 .cost{
+    margin-bottom: 8px;
+    height: 48px;
+    color: #5c5c5c;
+    font-size: 32px;
+    font-family: Objective-Bold;
+    line-height: 48px;
+    letter-spacing: -1.25px;
+}
+.part4 .p-2 .duration{
+    margin-bottom: 8px;
+    height: 32px;
+    color: #5c5c5c;
+    font-size: 12px;
+    font-family: Objective-Bold;
+    line-height: 14px;
+    letter-spacing: 2.5px;
+}
+.part4 .p-2 .count{
+    height: 50px;
+    margin: 0;
+    color: #1be1af;
+    font-family: Objective-Bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+}
+.part4 .p-2 .note{
+    height: 88px;
+    color: #333333;
+    font-family: Objective-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+}
+#started .plan{
+    color: #c2c2c2;
+}
+
+.part4 .p-2 button{
+    width: 100%;
+    height: 56px;
+    border-radius: 4px;
+    font-family: Objective-Bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+}
+#started button{
+    background-color: #ADADAD;
+    color: #ffffff;
+}
+
+#genius .plan{
+    color: #ADADAD;
+}
+#genius button{
+    background-color: #858585;
+    color: #ffffff;
+}
+
+#medium{
+    background-color: #7C4DFF;
+    border: hidden;
+}
+#medium .plan{
+    color: #1be1af;
+}
+#medium .cost, #medium .duration, #medium .note{
+    color: #ffffff;
+}
+#medium button{
+    background-color: #ffffff;
+    color: #333333;
+}
+
+#guru{
+    background-color: #ffffff;
+    border: hidden;
+    box-shadow: 0px 64px 64px rgba(28, 65, 84, 0.04), 0px 64px 48px rgba(28, 65, 84, 0.08), 0px 24px 24px rgba(28, 65, 84, 0.08), 0px 12px 12px rgba(28, 65, 84, 0.1);
+}
+#guru .plan{
+    color: #333333;
+}
+#guru .count{
+    color: #7C4DFF;
+}
+#guru button{
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
+
+/* PART5 */
+.part5{
+    width: 1440px;
+    height:452px;
+    background: url("./image/theme5.png") no-repeat center;
+    border-top: none;
+}
+.part5 .container-fluid{
+    padding: 120px 135px 70px;
+    height: 452px;
+}
+.part5 .container-fluid .row{
+    
+}
+.part5 .row #left #up{
+    width: 271px;
+    height: 40px;
+}
+.part5 .row p{
+    margin-bottom: 8px;
+    height: 24px;
+    color: #5c5c5c;
+    font-family: Objective-Bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2.5px;
+}
+.part5 .row #left #up .p-2{
+    width: 40px;
+    height: 40px;
+}
+.part5 #left #f{
+    background: url("./image/f.png") no-repeat center, url("./image/bg-white.png") no-repeat center;
+}
+.part5 #left #in{
+    background: url("./image/in.png") no-repeat center, url("./image/bg-white.png") no-repeat center;
+}
+.part5 #left #slack{
+    background: url("./image/slack.png") no-repeat center, url("./image/bg-white.png") no-repeat center;
+}
+.part5 #left #twitter{
+    background: url("./image/twitter.png") no-repeat center, url("./image/bg-white.png") no-repeat center;
+}
+
+.part5 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.part5 #down .p-2{
+    width: 171px;
+}
+.part5 li{
+    height: 24px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: Objective-Regular;
+    color: #333333;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+}
+.part5 li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Objective-Regular;
+    color: #333333;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+}
+.part5 .row #right .website{
+    height: 40px;
+    color: #7C4DFF;
+    font-size: 32px;
+    font-family: Objective-Bold;
+    line-height: 48px;
+    letter-spacing: -1.25px;
+}
+
+.part5 #right .border-0{
+    margin: 18px 0px;
+    padding: 0;
+    width: 100%;
+    height: 64px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.part5 #right button{
+    float: right;
+    height: 64px;
+    width: 169px;
+    border-radius: 4px;
+    font-family: Objective-Bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+}
+.part5 #right input{
+    height:64px;
+    width: 360px;
+    border: hidden;
+    font-size: 18px;
+    font-family: Objective-Regular;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+}

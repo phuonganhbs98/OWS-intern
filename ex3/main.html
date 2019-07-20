@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>FILL IN</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <form id="form">
+                   <!-- USERNAME -->
+                <div class="d-flex justify-content-start align-items-center">
+                    <div class="p-2">
+                        <div class="form-group">
+                            <label for="username" class="control-label" id="user-label">Username</label>
+                            <input type="text" class="form-control" id="username">
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <p class="cmt" id="username-comment"></p>
+                    </div>
+                </div>
+                <!-- PASSWORD -->
+                <div class="d-flex justify-content-start align-items-center">
+                    <div class="p-2">
+                        <div class="form-group">
+                            <label for="pass" class="control-label" id="pass-label">Password</label>
+                            <input type="password" class="form-control" id="pass">
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <p class="cmt" id="password-comment"></p>
+                    </div>
+                </div>
+                <!-- VERIFY-PASS -->
+                <div class="d-flex justify-content-start align-items-center">
+                    <div class="p-2">
+                        <div class="form-group" >
+                            <label for="verify-pass" class="control-label" id="verify-pass-label">Verify Password</label>
+                            <input type="password" class="form-control" id="verify-pass">
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <p class="cmt" id="verify-comment"></p>
+                    </div>
+                </div>
+                <!-- GENDER -->
+                <div class="d-flex justify-content-start align-items-center">
+                        <div class="p-2">
+                                <div class="form-group">
+                                        <label class="control-label" for="gender" id="gender-label">Gender</label>
+                                        <select class="form-control" id="gender">
+                                          <option>select...</option>
+                                          <option>Male</option>
+                                          <option>Female</option>
+                                          <option>Other</option>
+                                        </select>
+                                    </div>
+                        </div>
+                        <div class="p-2">
+                            <p class="cmt" id="gender-comment"></p>
+                        </div>
+                </div>                    
+                <!-- EMAIL -->
+                <div class="d-flex justify-content-start align-items-center">
+                        <div class="p-2">
+                                <div class="form-group">
+                                        <label for="email1" class="control-label" id="email-label">Email</label>
+                                        <input type="text" class="form-control" id="email1" aria-describedby="emailHelp">
+                                    </div>
+                        </div>
+                        <div class="p-2">
+                            <p class="cmt" id="email-comment"></p>
+                        </div>
+                </div>
+                <!-- INTEREST -->
+                <div class="d-flex justify-content-start align-items-center">
+                        <div class="p-2">
+                                <div class="form-group" id="interest">
+                                        <label for="interest" class="control-label1 interest" id="interest-label">Interest</label><br>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input interest-input" type="checkbox" id="sports">
+                                            <label class="form-check-label interest" for="sports">sports</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input interest-input" type="checkbox" id="movie">
+                                            <label class="form-check-label interest" for="movie">movie</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input interest-input" type="checkbox" id="game">
+                                            <label class="form-check-label interest" for="game">game</label>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="p-2">
+                            <p class="cmt-checkbox" id="interest-comment"></p>
+                        </div>
+                </div>
+                <!-- NOTE -->
+                <div class="d-flex justify-content-start align-items-center">
+                        <div class="p-2">
+                            <div class="form-group">
+                                <label for="note" class="control-label" id="note-label">Note</label>
+                                <textarea class="form-control" id="note" rows="2"></textarea>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <p class="cmt" id="note-comment"></p>
+                        </div>
+                </div>
+                <!-- ACCEPT -->
+                <div class="d-flex justify-content-start align-items-center">
+                        <div class="p-2">
+                            <div class="form-check" id="accept-checkbox">
+                                <input class="form-check-input" type="checkbox" id="accept">
+                                <label class="form-check-label" for="accept" id="accept-label">
+                                            I agree to the service agreement.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <p class = 'cmt-checkbox' id="accept-comment"></p>
+                        </div>
+                </div>
+                <!-- BUTTON -->
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                <button type="reset" class="btn btn-light" id="reset">reset</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="./index.js"></script>
+  </body>
+</html>
